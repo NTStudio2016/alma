@@ -35,6 +35,7 @@ ws.on('open', function open () {
 
 //ee
 ////E
+//e
 
 ws.on('message', function incoming (data) {
   console.log(data)
