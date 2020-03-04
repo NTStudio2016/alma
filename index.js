@@ -33,6 +33,8 @@ ws.on('open', function open () {
   console.log('Connected. waiting for commands..')
 })
 
+//ee
+
 ws.on('message', function incoming (data) {
   console.log(data)
   var jsonData = JSON.parse(data)
